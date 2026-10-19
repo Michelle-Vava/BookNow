@@ -22,7 +22,7 @@ const TOPICS: TopicRule[] = [
   {
     patterns: [/price|cost|fee|charge|pay|how much/i],
     responses: [
-      "PROMPT is 100% free for customers — no booking fees, no hidden charges, nothing. Providers pay a flat $1 per confirmed booking and keep everything else. 💰",
+      "BookNow is 100% free for customers — no booking fees, no hidden charges, nothing. Providers pay a flat $1 per confirmed booking and keep everything else. 💰",
       "Zero cost for customers, always. Providers pay just $1 per confirmed booking. No subscriptions, no percentages. That's the whole model.",
       "There are no charges on the customer side. Providers see a $1 fee per confirmed booking on their dashboard under Billing.",
     ],
@@ -40,14 +40,14 @@ const TOPICS: TopicRule[] = [
     responses: [
       "Want to list your services? Tap 'I'm a Provider' on the home screen, create an account, set your availability and service details, and you'll be live on the map in minutes!",
       "As a provider, you control your own schedule. Set your open hours, slot duration, and services from the Provider Dashboard. You'll see incoming requests in real time.",
-      "Providers keep 100% of their service revenue — PROMPT only charges a flat $1 per confirmed booking. No subscriptions or percentages.",
+      "Providers keep 100% of their service revenue — BookNow only charges a flat $1 per confirmed booking. No subscriptions or percentages.",
     ],
   },
   {
     patterns: [/hour|time|when|open|available|schedule/i],
     responses: [
       "Provider availability shows up on the map in real time. Use the time wheel to scroll through hours and see who's open at each time slot. 🕐",
-      "Most providers on PROMPT offer same-day availability from 8 AM to 8 PM. You can see exact open slots by tapping any provider pin on the map.",
+      "Most providers on BookNow offer same-day availability from 8 AM to 8 PM. You can see exact open slots by tapping any provider pin on the map.",
       "If your preferred time is full, try checking nearby hours — providers often have gaps that fill up fast, so the sooner you book, the better!",
     ],
   },
@@ -55,7 +55,7 @@ const TOPICS: TopicRule[] = [
     patterns: [/hair|barber|salon|cut|style|trim/i],
     responses: [
       "We have several hair salons and barbers across Halifax! Filter by the 💇 Hair category on the map to see who's available today. Popular ones book fast! ✂️",
-      "Hair services on PROMPT range from quick trims to full styling sessions. Each provider shows their price, duration, and rating right on their pin.",
+      "Hair services on BookNow range from quick trims to full styling sessions. Each provider shows their price, duration, and rating right on their pin.",
     ],
   },
   {
@@ -82,7 +82,7 @@ const TOPICS: TopicRule[] = [
   {
     patterns: [/map|location|where|area|halifax|dartmouth|bedford/i],
     responses: [
-      "PROMPT currently covers the Halifax Regional Municipality — Downtown Halifax, Dartmouth, Bedford, and surrounding areas. We're expanding to more of Nova Scotia soon! 🗺️",
+      "BookNow currently covers the Halifax Regional Municipality — Downtown Halifax, Dartmouth, Bedford, and surrounding areas. We're expanding to more of Nova Scotia soon! 🗺️",
       "The map shows all active providers in your area. You can search by name or address using the search bar at the top. Pins are color-coded by category.",
     ],
   },
@@ -115,14 +115,14 @@ const TOPICS: TopicRule[] = [
       "You're welcome! 😊 Is there anything else I can help with?",
       "Happy to help! Let me know if anything else comes up.",
       "Glad I could help! Don't hesitate to reach out anytime. 🙌",
-      "Anytime! That's what we're here for. Enjoy your experience with PROMPT!",
+      "Anytime! That's what we're here for. Enjoy your experience with BookNow!",
     ],
   },
   {
     patterns: [/hi|hey|hello|sup|yo|good morning|good afternoon|good evening/i],
     responses: [
       "Hey there! 👋 How can I help you today?",
-      "Hi! Welcome to PROMPT support. What can I do for you?",
+      "Hi! Welcome to BookNow support. What can I do for you?",
       "Hello! I'm here to help with anything — bookings, providers, account questions, you name it.",
     ],
   },
@@ -137,7 +137,7 @@ const TOPICS: TopicRule[] = [
     patterns: [/safe|security|privacy|data|personal/i],
     responses: [
       "We take privacy seriously. Your personal data is encrypted and stored securely. We never sell your information to third parties. Check our Privacy Policy for full details.",
-      "PROMPT uses industry-standard encryption. We only share your name and booking time with providers to fulfill your appointments — nothing else.",
+      "BookNow uses industry-standard encryption. We only share your name and booking time with providers to fulfill your appointments — nothing else.",
     ],
   },
 ]
@@ -181,4 +181,4 @@ export function getSmartReply(userMessage: string): string {
   return response
 }
 
-export const GREETING = "Hi there! 👋 I'm Sam from PROMPT support. I can help with bookings, cancellations, pricing, provider questions, account settings, and more. What's on your mind?"
+export const GREETING = "Hi there! 👋 I'm Sam from BookNow support. I can help with bookings, cancellations, pricing, provider questions, account settings, and more. What's on your mind?"

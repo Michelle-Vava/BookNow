@@ -139,7 +139,7 @@ export default function MapScreen() {
           {/* Logo */}
           <View style={styles.logoRow}>
             <View style={styles.liveDot} />
-            <Text style={[styles.logoText, { color: tk.text }]}>PROMPT</Text>
+            <Text style={[styles.logoText, { color: tk.text }]}>BOOKNOW</Text>
           </View>
 
           {/* Actions */}

@@ -60,7 +60,7 @@ export default function PrivacyScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>8. Contact</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          For privacy-related questions, contact us at privacy@prompt.app.
+          For privacy-related questions, contact us at privacy@booknow.app.
         </Text>
       </ScrollView>
     </View>

@@ -1,5 +1,5 @@
 /**
- * data.ts — Central data layer for Prompt.
+ * data.ts — Central data layer for BookNow.
  *
  * Contains all TypeScript interfaces, mock provider data, category definitions,
  * static color tokens (T), and mock notification data used across the app.

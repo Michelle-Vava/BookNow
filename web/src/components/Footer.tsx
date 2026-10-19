@@ -16,7 +16,7 @@ export default function Footer() {
     { label: 'Terms', to: '/legal/terms' },
     { label: 'Privacy', to: '/legal/privacy' },
     { label: 'Cookies', to: '/legal/cookies' },
-    { label: 'Support', href: 'mailto:hello@promptapp.ca' },
+    { label: 'Support', href: 'mailto:hello@booknow.app' },
   ]
 
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
       flexWrap: 'wrap', gap: 10,
     }}>
       <span style={{ fontSize: 11, color: tk.muted, fontFamily: 'Sora,system-ui', lineHeight: 1.6, opacity: 0.7 }}>
-        © {yr} Prompt Technologies Inc. · Halifax, NS
+        © {yr} Michelle Vava · Halifax, NS
       </span>
       <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap' }}>
         {LINKS.map(l => (

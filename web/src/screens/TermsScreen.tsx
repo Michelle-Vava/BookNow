@@ -24,14 +24,14 @@ export default function TermsScreen() {
           <p style={{ fontSize: 12, color: tk.muted, marginBottom: 28 }}>Last updated: April 2025</p>
 
           {([
-            { title: '1. Acceptance of Terms', body: 'By accessing or using PROMPT ("the Platform"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the Platform.' },
-            { title: '2. Description of Service', body: 'PROMPT is a same-day booking marketplace that connects customers with local service providers in Halifax. We facilitate the booking process but are not a party to the service agreement between customers and providers.' },
+            { title: '1. Acceptance of Terms', body: 'By accessing or using BookNow ("the Platform"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the Platform.' },
+            { title: '2. Description of Service', body: 'BookNow is a same-day booking marketplace that connects customers with local service providers in Halifax. We facilitate the booking process but are not a party to the service agreement between customers and providers.' },
             { title: '3. User Accounts', body: 'You must provide accurate information when creating an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.' },
             { title: '4. Booking & Cancellation', body: 'Bookings are confirmed instantly. Customers may cancel free of charge up to 1 hour before the appointment. Late cancellations may affect your account standing.' },
             { title: '5. Provider Terms', body: 'Providers agree to a flat fee of $1.00 per confirmed booking. Providers are responsible for delivering services as described and maintaining accurate availability.' },
             { title: '6. Prohibited Conduct', body: 'Users may not: misuse the platform, create fake accounts, harass other users, or engage in any activity that disrupts the service or violates applicable law.' },
-            { title: '7. Limitation of Liability', body: 'PROMPT is provided "as is." We make no warranties regarding the quality of services provided by third-party providers. Our liability is limited to the maximum extent permitted by law.' },
-            { title: '8. Contact', body: 'Questions about these terms? Contact us at legal@prompt.app or through the in-app support chat.' },
+            { title: '7. Limitation of Liability', body: 'BookNow is provided "as is." We make no warranties regarding the quality of services provided by third-party providers. Our liability is limited to the maximum extent permitted by law.' },
+            { title: '8. Contact', body: 'Questions about these terms? Contact us at legal@booknow.app or through the in-app support chat.' },
           ]).map((section, i) => (
             <div key={i} style={{ marginBottom: 24 }}>
               <div style={{ fontSize: 16, fontWeight: 800, color: tk.text, marginBottom: 8, fontFamily: 'Sora,system-ui' }}>

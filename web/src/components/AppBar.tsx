@@ -2,7 +2,7 @@
  * AppBar — Persistent top navigation bar for logged-in pages.
  *
  * Hamburger menu on the left opens SidebarNav drawer.
- * PROMPT logo in the center. Used by all post-auth screens except
+ * BookNow logo in the center. Used by all post-auth screens except
  * MapScreen (which has its own compact nav).
  */
 import { useState } from 'react'
@@ -51,7 +51,7 @@ export default function AppBar() {
           <span style={{
             fontSize: 17, fontWeight: 900, color: tk.text,
             letterSpacing: '-0.4px', fontFamily: 'Sora,system-ui',
-          }}>PROMPT</span>
+          }}>BOOKNOW</span>
         </div>
 
         {/* User avatar */}

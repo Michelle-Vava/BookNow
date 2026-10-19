@@ -30,7 +30,7 @@ export default function PrivacyScreen() {
             { title: '4. Data Storage & Security', body: 'Your data is stored securely using industry-standard encryption. We retain booking history for service improvement and comply with all applicable Canadian privacy regulations (PIPEDA).' },
             { title: '5. Your Rights', body: 'You can access, correct, or delete your personal data at any time through your profile settings or by contacting support. You may also request a full export of your data.' },
             { title: '6. Cookies & Analytics', body: 'We use essential cookies for authentication and preferences. Analytics cookies help us understand how the platform is used. You can manage cookie preferences in your browser settings.' },
-            { title: '7. Contact', body: 'For privacy-related questions, contact our Privacy Officer at privacy@prompt.app or through in-app support.' },
+            { title: '7. Contact', body: 'For privacy-related questions, contact our Privacy Officer at privacy@booknow.app or through in-app support.' },
           ]).map((section, i) => (
             <div key={i} style={{ marginBottom: 24 }}>
               <div style={{ fontSize: 16, fontWeight: 800, color: tk.text, marginBottom: 8, fontFamily: 'Sora,system-ui' }}>

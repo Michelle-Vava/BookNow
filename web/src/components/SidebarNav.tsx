@@ -93,7 +93,7 @@ export default function SidebarNav({ isOpen, onClose }: SidebarNavProps) {
               {/* Logo */}
               <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                 <div style={{ width: 7, height: 7, borderRadius: '50%', background: T.green, animation: 'pulse 2s infinite' }} />
-                <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px' }}>PROMPT</span>
+                <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px' }}>BOOKNOW</span>
               </div>
               {/* Close arrow */}
               <button

@@ -1,5 +1,5 @@
 /**
- * data.ts — Central data layer for PROMPT mobile.
+ * data.ts — Central data layer for BookNow mobile.
  *
  * Contains all TypeScript interfaces, mock provider data,
  * category groups with distinct colours, time-slot constants,

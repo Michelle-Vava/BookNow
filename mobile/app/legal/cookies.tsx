@@ -25,7 +25,7 @@ export default function CookiesScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>1. What Are Cookies</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Cookies are small text files stored on your device when you use our Service. They help us remember your preferences, understand how you use Prompt, and improve your experience.
+          Cookies are small text files stored on your device when you use our Service. They help us remember your preferences, understand how you use BookNow, and improve your experience.
         </Text>
 
         <Text style={[styles.heading, { color: tk.text }]}>2. Types of Cookies We Use</Text>
@@ -57,7 +57,7 @@ export default function CookiesScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>7. Contact</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Questions about our use of cookies? Contact us at privacy@prompt.app.
+          Questions about our use of cookies? Contact us at privacy@booknow.app.
         </Text>
       </ScrollView>
     </View>

@@ -8,12 +8,12 @@ import { useTheme } from '../lib/theme'
 import PageLayout from '../components/PageLayout'
 
 const FAQS = [
-  { q: 'How does PROMPT work?', a: 'PROMPT connects you with same-day service providers in Halifax. Browse providers on the map, pick an available time slot, and confirm your booking instantly. No waiting, no phone calls.' },
-  { q: 'Is PROMPT free for customers?', a: 'Yes — PROMPT is 100% free for customers. No booking fees, no hidden charges, forever. Providers pay just $1 per confirmed booking.' },
+  { q: 'How does BookNow work?', a: 'BookNow connects you with same-day service providers in Halifax. Browse providers on the map, pick an available time slot, and confirm your booking instantly. No waiting, no phone calls.' },
+  { q: 'Is BookNow free for customers?', a: 'Yes — BookNow is 100% free for customers. No booking fees, no hidden charges, forever. Providers pay just $1 per confirmed booking.' },
   { q: 'How do I cancel a booking?', a: 'Open your Activity screen, find the booking you want to cancel, and tap the "Cancel" button. Cancellations are free if made at least 1 hour before your appointment.' },
   { q: 'What if my provider cancels?', a: 'If a provider cancels, you\'ll be notified immediately and we\'ll suggest similar available providers nearby so you can rebook quickly.' },
   { q: 'What happens if no slots are available?', a: 'If a provider has no open slots at your selected time, try adjusting the time wheel to find alternative times. You can also browse other providers in the same category.' },
-  { q: 'What areas does PROMPT cover?', a: 'PROMPT currently serves the Halifax Regional Municipality, including Downtown Halifax, Dartmouth, Bedford, and surrounding areas. We\'re expanding soon!' },
+  { q: 'What areas does BookNow cover?', a: 'BookNow currently serves the Halifax Regional Municipality, including Downtown Halifax, Dartmouth, Bedford, and surrounding areas. We\'re expanding soon!' },
   { q: 'How do I become a provider?', a: 'Tap "List Your Services" on the home screen and create a provider account. Set your availability, add your services, and start accepting bookings in minutes.' },
   { q: 'What does it cost for providers?', a: 'Providers pay a flat $1 fee per confirmed booking. That\'s it — no subscriptions, no percentages, no hidden fees. You keep everything else.' },
 ]
@@ -34,7 +34,7 @@ export default function FAQScreen() {
           <div style={{ fontSize: 28, fontWeight: 900, color: tk.text, letterSpacing: '-1px', marginBottom: 6, fontFamily: 'Sora,system-ui' }}>
             FAQ
           </div>
-          <p style={{ fontSize: 14, color: tk.muted, marginBottom: 28 }}>Everything you need to know about PROMPT</p>
+          <p style={{ fontSize: 14, color: tk.muted, marginBottom: 28 }}>Everything you need to know about BookNow</p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {FAQS.map((faq, i) => (

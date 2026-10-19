@@ -25,12 +25,12 @@ export default function TermsScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>1. Acceptance of Terms</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          By accessing or using the Prompt mobile application ("Service"), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service.
+          By accessing or using the BookNow mobile application ("Service"), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service.
         </Text>
 
         <Text style={[styles.heading, { color: tk.text }]}>2. Description of Service</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Prompt is a same-day booking marketplace connecting customers with local service providers in the Halifax Regional Municipality. We facilitate bookings but do not directly provide any services listed on the platform.
+          BookNow is a same-day booking marketplace connecting customers with local service providers in the Halifax Regional Municipality. We facilitate bookings but do not directly provide any services listed on the platform.
         </Text>
 
         <Text style={[styles.heading, { color: tk.text }]}>3. User Accounts</Text>
@@ -40,7 +40,7 @@ export default function TermsScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>4. Bookings & Cancellations</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Bookings made through Prompt are binding agreements between customers and service providers. Cancellations must be made at least 2 hours before the scheduled time. Late cancellations may result in a fee at the provider's discretion.
+          Bookings made through BookNow are binding agreements between customers and service providers. Cancellations must be made at least 2 hours before the scheduled time. Late cancellations may result in a fee at the provider's discretion.
         </Text>
 
         <Text style={[styles.heading, { color: tk.text }]}>5. Provider Obligations</Text>
@@ -55,7 +55,7 @@ export default function TermsScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>7. Limitation of Liability</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Prompt is provided "as is" without warranties. We are not liable for any damages arising from your use of the Service, including but not limited to lost profits, data loss, or service interruptions.
+          BookNow is provided "as is" without warranties. We are not liable for any damages arising from your use of the Service, including but not limited to lost profits, data loss, or service interruptions.
         </Text>
 
         <Text style={[styles.heading, { color: tk.text }]}>8. Changes to Terms</Text>
@@ -65,7 +65,7 @@ export default function TermsScreen() {
 
         <Text style={[styles.heading, { color: tk.text }]}>9. Contact</Text>
         <Text style={[styles.body, { color: tk.sub }]}>
-          Questions about these Terms? Contact us at legal@prompt.app.
+          Questions about these Terms? Contact us at legal@booknow.app.
         </Text>
       </ScrollView>
     </View>

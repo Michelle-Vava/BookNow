@@ -1,4 +1,4 @@
-# PROMPT — Mobile App
+# BookNow — Mobile App
 
 > Instant same-day booking for local services across Halifax Regional Municipality.
 
@@ -22,7 +22,7 @@ Built with **Expo SDK 54**, **React Native 0.81**, **TypeScript 5.9**, and **exp
 
 ## Overview
 
-PROMPT is a two-sided marketplace connecting **customers** with **local service providers** (barbers, repair techs, spas, restaurants, etc.) for same-day bookings. The mobile app provides:
+BookNow is a two-sided marketplace connecting **customers** with **local service providers** (barbers, repair techs, spas, restaurants, etc.) for same-day bookings. The mobile app provides:
 
 - **Customers**: Map-based discovery, time-wheel slot selection, instant booking, activity tracking (list + calendar), and account management.
 - **Providers**: Live toggle (go live / pause), incoming request management (accept / decline), booking history with billing, slot availability editor, and business account settings.
@@ -312,4 +312,4 @@ These are intentional simplifications for this proof-of-concept:
 
 ---
 
-*Built as a proof of concept for the PROMPT same-day booking platform.*
+*Built as a proof of concept for the BookNow same-day booking platform.*

@@ -9,12 +9,12 @@ import { useTheme } from '../../lib/theme'
 import { s, ms, vs } from '../../lib/scale'
 
 const FAQS = [
-  { q: 'How does PROMPT work?', a: 'PROMPT connects you with same-day service providers in Halifax. Browse providers on the map, pick an available time slot, and confirm your booking instantly.' },
-  { q: 'Is PROMPT free for customers?', a: 'Yes — PROMPT is 100% free for customers. No booking fees, no hidden charges, forever. Providers pay just $1 per confirmed booking.' },
+  { q: 'How does BookNow work?', a: 'BookNow connects you with same-day service providers in Halifax. Browse providers on the map, pick an available time slot, and confirm your booking instantly.' },
+  { q: 'Is BookNow free for customers?', a: 'Yes — BookNow is 100% free for customers. No booking fees, no hidden charges, forever. Providers pay just $1 per confirmed booking.' },
   { q: 'How do I cancel a booking?', a: 'Open your Activity tab, find the booking you want to cancel, and tap Cancel. Cancellations are free if made at least 1 hour before your appointment.' },
   { q: 'What if my provider cancels?', a: "If a provider cancels, you'll be notified immediately and we'll suggest similar available providers nearby so you can rebook quickly." },
   { q: 'How does the waitlist work?', a: "When a slot is full, you can join the waitlist. If a spot opens, you'll be automatically confirmed and notified." },
-  { q: 'What areas does PROMPT cover?', a: "PROMPT currently covers the Halifax Regional Municipality including Downtown Halifax, Dartmouth, Bedford, and surrounding areas." },
+  { q: 'What areas does BookNow cover?', a: "BookNow currently covers the Halifax Regional Municipality including Downtown Halifax, Dartmouth, Bedford, and surrounding areas." },
   { q: 'How do I become a provider?', a: 'Tap "List Your Services" and create a provider account. Set your availability, add services, and start accepting bookings in minutes.' },
   { q: 'What does it cost for providers?', a: "Providers pay a flat $1 fee per confirmed booking. No subscriptions, no percentages. You keep everything else." },
 ]
@@ -35,7 +35,7 @@ export default function FAQScreen() {
         <Text style={[styles.headerTitle, { color: tk.text }]}>FAQ</Text>
       </View>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        <Text style={[styles.subtitle, { color: tk.muted }]}>Everything you need to know about PROMPT</Text>
+        <Text style={[styles.subtitle, { color: tk.muted }]}>Everything you need to know about BookNow</Text>
 
         {FAQS.map((faq, i) => (
           <Pressable

@@ -38,7 +38,7 @@ const MOCK_REVIEWS: Review[] = [
   { id: 1, customer: 'James R.', rating: 5, date: 'Apr 8, 2025', text: 'Best barber in Halifax! Always get a perfect fade. Tom really takes the time to get it right.' },
   { id: 2, customer: 'Sarah M.', rating: 5, date: 'Apr 7, 2025', text: 'Quick, professional, and affordable. My son loves his haircuts here.' },
   { id: 3, customer: 'Alex K.', rating: 4, date: 'Apr 6, 2025', text: 'Great experience. The hot towel shave was very relaxing. Will be back!' },
-  { id: 4, customer: 'Mike D.', rating: 5, date: 'Apr 5, 2025', text: 'Prompt booking made it so easy. Showed up on time, got a great cut, done in 30 min.' },
+  { id: 4, customer: 'Mike D.', rating: 5, date: 'Apr 5, 2025', text: 'BookNow booking made it so easy. Showed up on time, got a great cut, done in 30 min.' },
   { id: 5, customer: 'Lisa T.', rating: 4, date: 'Apr 4, 2025', text: 'Clean shop, friendly staff. Only 4 stars because parking can be tricky.' },
   { id: 6, customer: 'Chris P.', rating: 5, date: 'Apr 3, 2025', text: 'Switched from my old barber — Tom is the real deal. Consistently excellent.' },
 ]
@@ -186,7 +186,7 @@ export default function ProviderDashboard() {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <div style={{ width: 7, height: 7, borderRadius: '50%', background: T.green, animation: 'pulse 2s infinite' }} />
-            <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px', fontFamily: 'Sora,system-ui' }}>PROMPT</span>
+            <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px', fontFamily: 'Sora,system-ui' }}>BOOKNOW</span>
             <div style={{ display: 'flex', gap: 2, marginLeft: 16, background: tk.inputBg, borderRadius: 24, padding: 3 }}>
               <TabBtn id="dashboard" label="Dashboard" />
               <TabBtn id="services" label="Services" />

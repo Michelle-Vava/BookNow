@@ -81,7 +81,7 @@ export default function ContactSupportScreen() {
             S
           </div>
           <div>
-            <div style={{ fontSize: 14, fontWeight: 700, color: tk.text, fontFamily: 'Sora,system-ui' }}>Sam · PROMPT Support</div>
+            <div style={{ fontSize: 14, fontWeight: 700, color: tk.text, fontFamily: 'Sora,system-ui' }}>Sam · BookNow Support</div>
             <div style={{ fontSize: 11, color: T.green, fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4 }}>
               <div style={{ width: 6, height: 6, borderRadius: '50%', background: T.green }} /> Online
             </div>

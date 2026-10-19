@@ -42,7 +42,7 @@ export default function ProviderDashboard() {
         <View style={styles.headerRow}>
           <View style={styles.logoRow}>
             <View style={[styles.liveDot, { backgroundColor: isLive ? T.green : T.accent }]} />
-            <Text style={[styles.logoText, { color: tk.text }]}>PROMPT</Text>
+            <Text style={[styles.logoText, { color: tk.text }]}>BOOKNOW</Text>
             <Text style={[styles.roleLabel, { color: tk.muted }]}>Provider</Text>
           </View>
         </View>

@@ -242,7 +242,7 @@ export default function ProfileScreen() {
             >Sign out</button>
 
             <p style={{ fontSize: 11, color: tk.muted, textAlign: 'center', marginTop: 20, lineHeight: 1.7 }}>
-              Prompt v1.0.0 · © {new Date().getFullYear()} Prompt Technologies Inc.
+              BookNow v1.0.0 · © {new Date().getFullYear()} Michelle Vava
             </p>
 
     </PageLayout>

@@ -197,7 +197,7 @@ export default function AccountScreen() {
         </Pressable>
 
         <Text style={[styles.footer, { color: tk.muted }]}>
-          Prompt v1.0.0 · © {new Date().getFullYear()} Prompt Technologies Inc.
+          BookNow v1.0.0 · © {new Date().getFullYear()} Michelle Vava
         </Text>
       </ScrollView>
     </View>

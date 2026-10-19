@@ -119,7 +119,7 @@ export default function MapScreen() {
             </button>
 
             <div style={{ width: 7, height: 7, borderRadius: '50%', background: T.green, animation: 'pulse 2s infinite' }} />
-            <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px', fontFamily: 'Sora,system-ui' }}>PROMPT</span>
+            <span style={{ fontSize: 16, fontWeight: 900, color: tk.text, letterSpacing: '-0.4px', fontFamily: 'Sora,system-ui' }}>BOOKNOW</span>
             {!isMobile && (
               <span style={{ fontSize: 11, color: tk.muted, letterSpacing: '0.5px', marginLeft: 2 }}>
                 <LiveClock /> · Halifax

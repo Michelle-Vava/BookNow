@@ -1,5 +1,5 @@
 {
-  "name": "promptpoc",
+  "name": "booknow",
   "private": true,
   "scripts": {
     "web": "cd web && npm run dev",

@@ -126,7 +126,7 @@ export default function Splash() {
       </Animated.View>
 
       {/* Footer */}
-      <Text style={[styles.footer, { color: tk.muted }]}>© {new Date().getFullYear()} Prompt Technologies Inc.</Text>
+      <Text style={[styles.footer, { color: tk.muted }]}>© {new Date().getFullYear()} Michelle Vava</Text>
     </View>
   )
 }

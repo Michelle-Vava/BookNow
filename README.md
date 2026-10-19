@@ -1,4 +1,4 @@
-# Prompt — Real-time Same-Day Booking
+# BookNow — Real-time Same-Day Booking
 
 A proof-of-concept web app for real-time same-day bookings in Halifax, NS. Customers book instantly for free; service providers pay $1 per confirmed booking.
 
@@ -175,4 +175,4 @@ The following are UI stubs — not legally binding documents:
 
 ## License
 
-© 2025 Prompt Technologies Inc. All rights reserved. This is a proof-of-concept and not a commercial product.
+© 2025 Michelle Vava. This is a proof-of-concept and not a commercial product.

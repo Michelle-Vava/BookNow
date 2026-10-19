@@ -75,7 +75,7 @@ export default function ContactScreen() {
               <Text style={styles.avatarText}>S</Text>
             </View>
             <View>
-              <Text style={[styles.agentName, { color: tk.text }]}>Sam · PROMPT Support</Text>
+              <Text style={[styles.agentName, { color: tk.text }]}>Sam · BookNow Support</Text>
               <View style={styles.onlineRow}>
                 <View style={styles.onlineDot} />
                 <Text style={styles.onlineText}>Online</Text>
