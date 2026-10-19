@@ -4,7 +4,9 @@ dist/
 web-build/
 .DS_Store
 *.pem
-.env*.local
+.env
+.env.*
+!.env.example
 npm-debug.*
 yarn-debug.*
 yarn-error.*
