@@ -1,10 +1,19 @@
 # BookNow — Real-time Same-Day Booking
 
-A proof-of-concept web app for real-time same-day bookings in Halifax, NS. Customers book instantly for free; service providers pay $1 per confirmed booking.
+BookNow is a same-day booking app for local services in Halifax, NS, with a **web app** and a **mobile app**. Customers find open time slots on a map and book instantly for free; service providers (barbers, repair techs, spas, restaurants and more) pay $1 per confirmed booking.
+
+**Who it's for:** people who need a service today and don't want to phone around, and small local businesses that want to fill empty slots.
+
+**Status:** working proof of concept. Both apps run on made-up sample data; the backend, real accounts and payments are next. See [ROADMAP.md](ROADMAP.md).
+
+| App | Folder | Built with | Docs |
+|-----|--------|-----------|------|
+| Web | [`web/`](web/) | React 18, TypeScript, Vite, Leaflet | this file |
+| Mobile | [`mobile/`](mobile/) | Expo, React Native, TypeScript, expo-router | [mobile/README.md](mobile/README.md) |
 
 ---
 
-## Tech Stack
+## Tech Stack (web)
 
 | Layer | Choice |
 |-------|--------|
@@ -112,6 +121,7 @@ resolve: { extensions: ['.mjs', '.ts', '.tsx', '.js', '.jsx', '.json'] }
 
 ## Running Locally
 
+**Web**
 ```bash
 cd web
 npm install
@@ -119,6 +129,15 @@ npm run dev
 ```
 
 Open `http://localhost:5173`.
+
+**Mobile**
+```bash
+cd mobile
+npm install
+npx expo start
+```
+
+Scan the QR code with Expo Go, or press `i` / `a` for an iOS or Android simulator. See [mobile/README.md](mobile/README.md) for details.
 
 ---
 
@@ -175,4 +194,4 @@ The following are UI stubs — not legally binding documents:
 
 ## License
 
-© 2025 Michelle Vava. This is a proof-of-concept and not a commercial product.
+[MIT](LICENSE) © 2025-2026 Michelle Vava
