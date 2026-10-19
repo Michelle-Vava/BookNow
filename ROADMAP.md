@@ -3,6 +3,7 @@
 BookNow currently runs entirely on mock data in both the web app (`web/`) and the mobile app (`mobile/`). This roadmap moves it from a clickable proof of concept to a working booking platform. All development uses made-up sample providers and customers; no real personal data.
 
 ## Phase 0: Web app updates and code cleanup
+- [ ] Add a "Demo, sample data" banner to the live web app, and stop the hard-coded counters ("847 bookings this week", "75 providers live") looking like real usage
 - [ ] Bring the web provider side up to par with mobile: split `ProviderDashboard` into separate Bookings, Slots and Account screens like `mobile/app/(provider-tabs)/`
 - [ ] Match the customer flow between web and mobile (activity calendar view, services list, help screens)
 - [ ] Remove the duplicate `web/vite.config.js` (`vite.config.ts` is the real config)

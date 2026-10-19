@@ -6,6 +6,12 @@ BookNow is a same-day booking app for local services in Halifax, NS, with a **we
 
 **Status:** working proof of concept. Both apps run on made-up sample data; the backend, real accounts and payments are next. See [ROADMAP.md](ROADMAP.md).
 
+**▶ Live web demo: [prompt-poc-izbg.vercel.app](https://prompt-poc-izbg.vercel.app)**. All providers, bookings and figures on it (such as "847 bookings this week") are sample data; there are no real users yet.
+
+<p align="center">
+  <img src="docs/screenshot-web.png" width="90%" alt="BookNow web landing page: 'Book it. Right now.' with category chips and a how-it-works panel"/>
+</p>
+
 | App | Folder | Built with | Docs |
 |-----|--------|-----------|------|
 | Web | [`web/`](web/) | React 18, TypeScript, Vite, Leaflet | this file |
